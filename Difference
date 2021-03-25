@@ -6,3 +6,11 @@ class Difference:
         self.D = sorted(self.__elements)
     def maximumDifference(self):
         D = self.D[-1]-self.D[0]
+# End of Difference class
+
+_ = input()
+a = [int(e) for e in input().split(' ')]
+
+d = Difference(a)
+d.computeDifference()
+print(d.maximumDifference)

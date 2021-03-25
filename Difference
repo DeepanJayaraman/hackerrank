@@ -1,0 +1,8 @@
+class Difference:
+    def __init__(self, a):
+        self.__elements = a
+	# Add your code here
+    def computeDifference(self):
+        self.D = sorted(self.__elements)
+    def maximumDifference(self):
+        D = self.D[-1]-self.D[0]
